@@ -1,0 +1,77 @@
+:root{
+  font-size: 62.5%;
+}
+
+* {
+  font-size: 1.6rem;
+}
+
+body {
+  background: rgb(19, 39, 67);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+table {
+  width: 80%;
+  margin: 4rem auto;
+  background: rgb(124,154,167);
+}
+
+table.list {
+  text-align: center;
+  width: 100%;
+}
+
+td {
+  border: .1rem solid rgb(204,200,200);
+  text-align: left;
+  padding: 0.8rem 1.5rem;
+}
+
+tr:nth-child(even), table.list thread> tr{
+  background-color: rgb(204,200,200);
+}
+
+input[type="text"], input[type="number"]{
+  width: 90%;
+  padding:1.2rem 2rem;
+  margin: 0.8rem 0;
+  display: inline-block;
+  border: .1rem solid rgb(165,161,161);
+  border-radius: 0.4rem;
+}
+
+input[type="submit"], input[type="reset"]{
+  background: #eee;
+  padding: 0.6rem 1.2rem;
+  margin: 1.5rem 0 1rem;
+  display: inline-block;
+  border: none;
+  border-radius: 3rem;  
+  cursor: pointer;
+  outline: none;
+}
+
+input[type="submit"]:hover{
+  background: #4b99d8;
+}
+
+input[type="reset"]:hover{
+  background: #4b99d8;
+}
+
+button{
+  background: #eee;
+  padding: 0.6rem 1.2rem;
+  margin: 1.5rem 0 1rem;
+  display: inline-block;
+  border: none;
+  border-radius: 3rem;  
+  cursor: pointer;
+  outline: none;
+}
+
+button:hover{
+  background: #4b99d8;
+}

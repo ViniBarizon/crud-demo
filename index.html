@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple CRUD</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <table>
+    <tr>
+      <td>
+        <form autocomplete="off" onsubmit="onFormSubmit()">
+          <div>
+            <label for="productCode">Código do Produto</label>
+            <input type="text" name="productCode" id="productCode">
+          </div>
+          <div>
+            <label for="productName">Nome do Produto</label>
+            <input type="text" name="productName" id="productName">
+          </div>
+          <div>
+            <label for="productQty">Quantidade do Produto</label>
+            <input type="number" name="productQty" id="productQty">
+          </div>
+          <div>
+            <label for="productPrice">Preço do Produto</label>
+            <input type="number" name="productPrice" id="productPrice">
+          </div>
+
+          <div class="form-buttons">
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+          </div>
+        </form>
+
+        <td>
+          <table class="list" id="storeList">
+            <thead>
+              <tr>
+                <th>Código do Produto</th>
+                <th>Nome do Produto</th>
+                <th>Quantidade do Produto</th>
+                <th>Preço do Produto</th>
+              </tr>
+            </thead>
+            <tbody>
+              
+            </tbody>
+          </table>
+        </td>
+
+      </td>
+    </tr>
+  </table>
+
+
+
+
+
+
+  <script defer src="script.js" ></script>
+</body>
+</html>
